@@ -16,13 +16,12 @@
 
 # print (math_change)
 
-
-
+'''
 
 math = a,b,c, = "Hello", "World", "!"
 b = "Python"
 
-print (math[0], b, math[-1])
+print (math[0], b, math[-1]) # Hello Python !
 
 
 
@@ -33,3 +32,14 @@ message_changed_delete = message [::2] # delete each 2 symbol from the begin ## 
 message_changed_delete_invert = message [::-2] # delete each 2 symbol from the end ## !lo le
 
 print (message, "->", message_changed_invert, "->", message_changed_delete, "->", message_changed_delete_invert) # Hello World! -> !dlroW olleH -> !lo le
+
+'''
+
+
+
+val = 5, "+", "-", 2
+
+# math_1 = val[0], val[1], val[-1]
+math_1 = val[0] + val[-1]
+
+print (math_1) 
